@@ -1,0 +1,208 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/post"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_category": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_keywords": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "12e46b37-fab3-4cf8-a346-8a162d9213f7"
+        }
+    ],
+    "vid": [
+        {
+            "value": 5
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "post"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2019-05-22T06:16:41+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/category_"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0f048104-19fd-40b3-971c-5ee1d5d99b5e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/post\/field_keywords": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/5?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/keywords"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6877aa60-9a62-4ffa-83a7-97ef67d40bb7"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Token",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-22T06:16:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-22T06:16:41+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_related_links": [
+        {
+            "uri": "https:\/\/www.drupal.org\/project\/token",
+            "title": "",
+            "options": []
+        }
+    ]
+}
