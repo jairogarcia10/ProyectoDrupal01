@@ -1,0 +1,29 @@
+uuid: a9f2260b-8286-404d-ad48-7b38abb3e27e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_keywords
+    - node.type.post
+    - taxonomy.vocabulary.keywords
+id: node.post.field_keywords
+field_name: field_keywords
+entity_type: node
+bundle: post
+label: keywords
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      keywords: keywords
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
