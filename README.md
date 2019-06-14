@@ -1,21 +1,22 @@
 # The members of the project are:
 
-*Jairo García Sibaja B32799
-*Lisbeth Hernandez Villegas B53431
-*Karol Ureña Benavides B37106
+* Jairo García Sibaja B32799
+* Lisbeth Hernandez Villegas B53431
+* Karol Ureña Benavides B37106
 
 # Using this project
+
 After cloning/forking this project you should do the following:
 
-1.Initiate containers:
+1. Initiate containers:
     `ddev start`
-2.Install dependencies:
+2. Install dependencies:
     `ddev composer install`
-3.Install site using existing config:
+3. Install site using existing config:
     `ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync`
-4.Import config
+4. Import config
     `ddev exec drush cim -y`
-5.Import default content:
+5. Import default content:
     `ddev exec drush dcdi`
 
 
