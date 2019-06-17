@@ -1,0 +1,5 @@
+# Schema for the configuration files of the projectTheme theme.
+
+projecttheme.settings:
+  type: theme_settings
+  label: 'projectTheme settings'

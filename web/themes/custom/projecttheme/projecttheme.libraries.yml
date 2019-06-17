@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/projecttheme.style.css: {}
+  js:
+    assets/js/projecttheme.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
