@@ -1,0 +1,39 @@
+uuid: 81299afa-801a-47c4-bd31-506a90a06e11
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.post_categories
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - radix
+id: radix_views_block__post_categories_block_1
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: 'views_block:post_categories-block_1'
+settings:
+  id: 'views_block:post_categories-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: /categories-content/2
+    negate: false
+    context_mapping: {  }
+  node_type:
+    id: node_type
+    bundles:
+      post: post
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

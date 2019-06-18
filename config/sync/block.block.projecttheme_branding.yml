@@ -1,0 +1,25 @@
+uuid: ad524d4f-b909-46d9-97ad-c8e92f302bea
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - projecttheme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: projecttheme_branding
+theme: projecttheme
+region: navbar_branding
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

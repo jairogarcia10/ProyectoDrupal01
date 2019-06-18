@@ -1,0 +1,20 @@
+uuid: ab12536e-afe1-4c44-8344-6f26db66fb9d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - projecttheme
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: projecttheme_local_actions
+theme: projecttheme
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

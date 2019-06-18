@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/project01.ddev.local\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/menu_link_content\/menu_link_content"
@@ -84,7 +84,7 @@
     ],
     "changed": [
         {
-            "value": "2019-05-22T02:28:33+00:00",
+            "value": "2019-06-15T18:05:44+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/user\/1?_format=hal_json"
+            "href": "http:\/\/project01.ddev.local\/user\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
@@ -63,7 +63,7 @@
     ],
     "access": [
         {
-            "value": "2019-06-03T20:18:58+00:00",
+            "value": "2019-06-18T02:12:40+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
