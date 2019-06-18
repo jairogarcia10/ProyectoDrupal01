@@ -1,0 +1,35 @@
+{#
+/**
+ * @file
+ * Template for a Node Article Teaer component.
+ */
+#}
+{%
+  set classes = [
+  'node',
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  node.bundle|clean_class,
+  node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+]
+%}
+<article{{attributes.addClass(classes)}}>
+
+  {% block content %}
+ 
+    <div class="row views-element-container">
+    <div class="col-6 col-md-4">{{ view.title }}</div>
+    
+    <div>
+    {% include directory ~ '/partials/view.html.twig' %}
+   
+    </div>
+   
+  </div>
+  {{ kint() }}
+  {% endblock %}
+  </article>
+   
+
+

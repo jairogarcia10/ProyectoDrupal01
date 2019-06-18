@@ -1,0 +1,29 @@
+   {% block content %}
+   <div class="row">
+
+   <div class="col-sm-8">
+    {{ page.content }}
+  
+<article>
+    
+      <div>
+           <h3>{{ title }}</h3>
+      </div>
+    <div>
+          {{ body }}
+    </div >
+    <div class="w">
+    {{ view_node }}
+    </div>
+</article>
+</div>
+<div class="col-sm-4">
+{{ page.sidebar }}
+</div>
+ 
+     </div>
+    
+
+
+
+  {% endblock %}

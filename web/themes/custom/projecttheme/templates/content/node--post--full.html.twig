@@ -1,0 +1,38 @@
+{#
+/**
+ * @file
+ * Template for a Node Article Teaer component.
+ */
+#}
+{%
+  set classes = [
+  'node',
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  node.bundle|clean_class,
+  node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+]
+%}
+<article{{attributes.addClass(classes)}}>
+ 
+  {% block content %}
+  
+    <div class="row mt-3">
+       <div class="col-6 col-md-4">{{ elements.field_images }}</div>
+       <div class="col-6 col-md-4">{{ elements.body }}</div>
+       <div class="col-6 col-md-4">{{ elements.field_category }}
+    <div>
+    {{ elements.field_keywords }}
+    </div>
+    <div>
+    {{ elements.field_related_links }}
+    </div>
+    <div>{{ elements.field_comment }}</div>
+ 
+    
+  </div>
+
+  {{ kint() }}
+  {% endblock %}
+  </article>

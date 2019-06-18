@@ -1,0 +1,31 @@
+uuid: 3e122161-bc3f-46ab-ae49-249fa0c36092
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.information
+  module:
+    - system
+    - views
+  theme:
+    - bartik
+id: views_block__information_block_2
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:information-block_2'
+settings:
+  id: 'views_block:information-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }
