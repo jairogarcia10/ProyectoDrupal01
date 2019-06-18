@@ -11,7 +11,6 @@ dependencies:
     - field.field.node.post.field_related_links
     - node.type.post
   module:
-    - comment
     - link
     - path
     - text
@@ -35,20 +34,11 @@ content:
     third_party_settings: {  }
     type: options_select
     region: content
-  field_comment:
-    weight: 26
-    settings: {  }
-    third_party_settings: {  }
-    type: comment_default
-    region: content
   field_images:
     weight: 4
-    settings:
-      match_operator: CONTAINS
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: options_select
     region: content
   field_keywords:
     weight: 6
@@ -89,6 +79,7 @@ content:
     third_party_settings: {  }
 hidden:
   created: true
+  field_comment: true
   promote: true
   status: true
   sticky: true

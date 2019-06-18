@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/config\/user-interface\/shortcut\/link\/1?_format=hal_json"
+            "href": "http:\/\/project01.ddev.local\/admin\/config\/user-interface\/shortcut\/link\/1?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/drupal.org\/rest\/type\/shortcut\/default"

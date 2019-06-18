@@ -1,0 +1,30 @@
+uuid: bdcef2ec-6478-4e42-a00a-c00804d1c918
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.information
+  module:
+    - system
+    - views
+  theme:
+    - radix
+id: radix_views_block__information_block_1
+theme: radix
+region: navbar_branding
+weight: 0
+provider: null
+plugin: 'views_block:information-block_1'
+settings:
+  id: 'views_block:information-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }

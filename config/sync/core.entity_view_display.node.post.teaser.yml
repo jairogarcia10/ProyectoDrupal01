@@ -5,6 +5,11 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
+    - field.field.node.post.field_category
+    - field.field.node.post.field_comment
+    - field.field.node.post.field_images
+    - field.field.node.post.field_keywords
+    - field.field.node.post.field_related_links
     - node.type.post
   module:
     - text
@@ -19,12 +24,17 @@ content:
     type: text_summary_or_trimmed
     weight: 101
     settings:
-      trim_length: 600
+      trim_length: 100
     third_party_settings: {  }
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
-hidden: {  }
+hidden:
+  field_category: true
+  field_comment: true
+  field_images: true
+  field_keywords: true
+  field_related_links: true

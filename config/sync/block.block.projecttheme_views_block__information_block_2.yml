@@ -1,0 +1,31 @@
+uuid: 120ae5d5-0278-4aaa-b61b-9d5c6afb17a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.information
+  module:
+    - system
+    - views
+  theme:
+    - projecttheme
+id: projecttheme_views_block__information_block_2
+theme: projecttheme
+region: sidebar
+weight: -7
+provider: null
+plugin: 'views_block:information-block_2'
+settings:
+  id: 'views_block:information-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: '/node/*'
+    negate: false
+    context_mapping: {  }
