@@ -14,6 +14,9 @@ After cloning/forking this project you should do the following:
     `ddev composer install`
 3. Install site using existing config:
     `ddev exec drush si --db-url=mysql://db:db@db/db --config-dir=../config/sync`
+* if the previous step gives you an error: you have to modify this file
+'nano config/sync/core.extension.yml'
+* change the standard line: 1000 by minimal: 0 and in profile write: minimal
 4. Import config
     `ddev exec drush cim -y`
 5. Import default content:
