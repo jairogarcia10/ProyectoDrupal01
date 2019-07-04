@@ -1,0 +1,209 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+<div class="page">
+  {% embed '@radix/navbar/navbar.twig' with {
+    placement: 'sticky-top',
+    container: 'fixed',
+    color: 'light',
+    utility_classes: ['bg-light'],
+  } %}
+
+    {% block branding %}
+      {% if page.navbar_branding %}
+        {{ page.navbar_branding }}
+      {% endif %}
+    {% endblock %}
+
+    {% block left %}
+      {% if page.navbar_left %}
+        <div class="mr-auto">
+          {{ page.navbar_left }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block right %}
+      {% if page.navbar_right %}
+        {{ page.navbar_right }}
+      {% endif %}
+    {% endblock %}
+  {% endembed %}
+
+  <main class="pt-5 pb-5">
+    {% if page.header %}
+      <header class="page__header mb-3">
+        <div class="container">
+          {{ page.header }}
+        </div>
+      </header>
+    {% endif %}
+
+
+ <div class="how-section1">
+                    <div class="row">
+                        <div class="col-md-6 how-img">
+                            <img src="https://image.ibb.co/dDW27U/Work_Section2_freelance_img1.png" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Find rewarding projects</h4>
+                                        <h4 class="subheading">GetLance is a great place to find more clients, and to run and grow your own freelance business.</h4>
+                        <p class="text-muted">Freedom to work on ideal projects. On GetLance, you run your own business and choose your own clients and projects. Just complete your profile and we’ll highlight ideal jobs. Also search projects, and respond to client invitations.
+                                            Wide variety and high pay. Clients are now posting jobs in hundreds of skill categories, paying top price for great work.
+                                            More and more success. The greater the success you have on projects, the more likely you are to get hired by clients that use GetLance.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4>Get hired quickly</h4>
+                                        <h4 class="subheading">GetLance makes it easy to connect with clients and begin doing great work.</h4>
+                                        <p class="text-muted">Streamlined hiring. GetLance’s sophisticated algorithms highlight projects you’re a great fit for.
+                                            Top Rated and Rising Talent programs. Enjoy higher visibility with the added status of prestigious programs.
+                                            Do substantial work with top clients. GetLance pricing encourages freelancers to use GetLance for repeat relationships with their clients.</p>
+                        </div>
+                        <div class="col-md-6 how-img">
+                            <img src="https://image.ibb.co/cHgKnU/Work_Section2_freelance_img2.png" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 how-img">
+                             <img src="https://image.ibb.co/ctSLu9/Work_Section2_freelance_img3.png" class="rounded-circle img-fluid" alt=""/>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Work efficiently, effectively.</h4>
+                                        <h4 class="subheading">With GetLance, you have the freedom and flexibility to control when, where, and how you work. Each project includes an online workspace shared by you and your client, allowing you to:</h4>
+                                        <p class="text-muted">Send and receive files. Deliver digital assets in a secure environment.
+                                            Share feedback in real time. Use GetLance Messages to communicate via text, chat, or video.
+                                            Use our mobile app. Many features can be accessed on your mobile phone when on the go.</p>
+                        </div>
+                    </div>
+                
+                </div>
+
+                <br>
+                <br>
+                <!-- Team -->
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">OUR TEAM</h5>
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid i" src="/themes/custom/projecttheme/assets/images/image851.png" alt="card image"></p>
+                                    <h4 class="card-title">Jairo Garcia</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. He is currently pursuing a career in ...</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Jairo Garcia</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. 
+                                    He is currently pursuing a career in Informatics and multimedia technology. 
+                                    You want to be licensed in the development of mobile applications and
+                                    is one of the best videogame players in the country.</p>
+                                    <a href="#" class="btn btn-outline-info btn-sm c">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="/themes/custom/projecttheme/assets/images/ka.png" alt="card image"></p>
+                                    <h4 class="card-title">Karol G</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. She is currently pursuing a career in ...</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Karol G</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. 
+                                    She is currently pursuing a career in Informatics and multimedia technology. 
+                                    She wants to be a graduate in website development and 
+                                    is passionate about graphic design.</p>
+                                  <a href="#" class="btn btn-outline-info btn-sm c">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+       
+            
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="/themes/custom/projecttheme/assets/images/liss.png" alt="card image"></p>
+                                    <h4 class="card-title">Lisbeth H</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. She is currently pursuing a career in ...</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Libesth H</h4>
+                                    <p class="card-text">Student of the University of Costa Rica. 
+                                    She is currently pursuing a career in Informatics and multimedia technology.
+                                    She wants to be a graduate in website development and
+                                    is one of the best videogame players in the country.</p>
+                                 <a href="#" class="btn btn-outline-info btn-sm c">More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+
+        </div>
+    </div>
+</section>
+                  
+      
+  </main>
+</div>
+  {% if page.footer %}
+   <footer class="page__footer bottom section-padding">
+      <div class="container">
+           <div class= "row">
+                 <div class= "col-md-12 text-center ">
+                     <div class= "copyright">
+                       {{ page.footer.projecttheme_powered }}
+                       	<p>© <span>2019</span> <span class="transition">Course TM7101</span> All rights reserved by <span class="transition"> Jairo, Karol & Lisbeth</span></p>
+                     </div>
+                 
+                 </div>
+           </div>
+        </div>
+      
+    </footer>
+  {% endif %}

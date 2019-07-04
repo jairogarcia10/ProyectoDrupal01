@@ -16,6 +16,7 @@ regions:
   content: Content
   blog: Blog
   sidebar: 'Sidebar'
+  sidebarR: Sidebar Right
   main_navigation: 'Main Navigation'
   page_bottom: Page bottom
   footer: Footer

@@ -10,7 +10,7 @@ dependencies:
 id: categories
 label: Categories
 module: views
-description: ''
+description: 'Muestra la lista de todas las categorias'
 tag: ''
 base_table: taxonomy_term_field_data
 base_field: tid

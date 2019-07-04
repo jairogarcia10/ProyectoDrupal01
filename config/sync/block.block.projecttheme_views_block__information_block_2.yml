@@ -12,7 +12,7 @@ dependencies:
 id: projecttheme_views_block__information_block_2
 theme: projecttheme
 region: sidebar
-weight: -7
+weight: -9
 provider: null
 plugin: 'views_block:information-block_2'
 settings:

@@ -19,13 +19,13 @@
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/thumbnail": [
             {
-                "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-05\/lightning.png",
+                "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-07\/lightning.png",
                 "lang": "en"
             }
         ],
         "http:\/\/drupal.org\/rest\/relation\/media\/image\/field_media_image": [
             {
-                "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-05\/lightning.png",
+                "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-07\/lightning.png",
                 "lang": "en"
             }
         ]
@@ -42,7 +42,7 @@
     ],
     "vid": [
         {
-            "value": 1
+            "value": 2
         }
     ],
     "langcode": [
@@ -58,7 +58,7 @@
     ],
     "revision_created": [
         {
-            "value": "2019-05-22T02:39:14+00:00",
+            "value": "2019-07-04T08:31:38+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -75,7 +75,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ]
             }
@@ -92,7 +92,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ],
                 "lang": "en"
@@ -102,7 +102,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-05\/lightning.png"
+                        "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-07\/lightning.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -110,7 +110,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "973dd12c-28e0-4b94-9fed-81e243081d3c"
+                        "value": "3feeb3bb-ce34-4bed-95bf-26a75a1285a6"
                     }
                 ],
                 "lang": "en"
@@ -120,7 +120,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-05\/lightning.png"
+                        "href": "http:\/\/project01.ddev.local\/sites\/default\/files\/2019-07\/lightning.png"
                     },
                     "type": {
                         "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
@@ -128,7 +128,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "973dd12c-28e0-4b94-9fed-81e243081d3c"
+                        "value": "3feeb3bb-ce34-4bed-95bf-26a75a1285a6"
                     }
                 ],
                 "lang": "en"
@@ -156,7 +156,7 @@
     ],
     "changed": [
         {
-            "value": "2019-05-22T02:39:14+00:00",
+            "value": "2019-07-04T08:31:38+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

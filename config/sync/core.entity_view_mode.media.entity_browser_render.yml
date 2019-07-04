@@ -1,0 +1,10 @@
+uuid: 35ab4a13-6e91-4027-a229-44ccfacb7ad3
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.entity_browser_render
+label: 'Entity Browser render'
+targetEntityType: media
+cache: true

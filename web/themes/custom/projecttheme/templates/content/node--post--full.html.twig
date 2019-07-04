@@ -19,20 +19,31 @@
   {% block content %}
   
     <div class="row mt-3">
-       <div class="col-6 col-md-4">{{ elements.field_images }}</div>
-       <div class="col-6 col-md-4">{{ elements.body }}</div>
-       <div class="col-6 col-md-4">{{ elements.field_category }}
-    <div>
-    {{ elements.field_keywords }}
+        <div class="col-6 col-md-4">{{ elements.field_images }}</div>
+        <div class="col-6 col-md-4">{{ elements.body }}</div>
+        <div class="col-6 col-md-4">
+         
+          {{ author_picture }}
+          {{ author_name }}
+          <dr>
+          {{ elements.field_category }}
+          {{ elements.field_keywords }}
+          {{ elements.field_related_links }}
+          
+        
+        </div>
     </div>
-    <div>
-    {{ elements.field_related_links }}
+    <div class="row">
+<div class="col-12">
+  {{ elements.field_comment }}
+</div>
     </div>
-    <div>{{ elements.field_comment }}</div>
+    
  
     
   </div>
 
-  {{ kint() }}
+  
   {% endblock %}
   </article>
+ 

@@ -45,7 +45,7 @@
     ],
     "vid": [
         {
-            "value": 4
+            "value": 8
         }
     ],
     "langcode": [
@@ -61,7 +61,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-05-22T02:40:08+00:00",
+            "value": "2019-07-04T09:06:24+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -78,7 +78,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ]
             }
@@ -95,7 +95,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ],
                 "lang": "en"
@@ -174,7 +174,7 @@
     ],
     "changed": [
         {
-            "value": "2019-05-22T02:40:08+00:00",
+            "value": "2019-07-04T09:06:24+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -197,12 +197,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "path": [
         {
             "alias": null,
@@ -218,6 +212,16 @@
             "processed": "<p>The intent of Lightning is to\u00a0<strong>enable developers to create great authoring experiences and empower editorial teams<\/strong>. We do this by providing a lightweight framework, documentation and best practice examples for building working solutions in Drupal<\/p>",
             "summary": "",
             "lang": "en"
+        }
+    ],
+    "field_comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1558492808,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
         }
     ],
     "field_related_links": [

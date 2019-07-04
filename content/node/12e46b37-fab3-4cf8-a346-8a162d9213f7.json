@@ -40,7 +40,7 @@
     ],
     "vid": [
         {
-            "value": 5
+            "value": 9
         }
     ],
     "langcode": [
@@ -56,7 +56,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2019-05-22T06:16:41+00:00",
+            "value": "2019-07-04T09:13:56+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -73,7 +73,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ]
             }
@@ -90,7 +90,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "e55c3a6d-24e3-440b-a755-735d0cd66a82"
+                        "value": "b5907b91-cd8e-4318-b0df-d52148130846"
                     }
                 ],
                 "lang": "en"
@@ -152,7 +152,7 @@
     ],
     "changed": [
         {
-            "value": "2019-05-22T06:16:41+00:00",
+            "value": "2019-07-04T09:13:56+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -175,12 +175,6 @@
             "lang": "en"
         }
     ],
-    "revision_translation_affected": [
-        {
-            "value": true,
-            "lang": "en"
-        }
-    ],
     "path": [
         {
             "alias": null,
@@ -196,6 +190,16 @@
             "processed": "<p>Provides additional tokens not supported by core (most notably fields), as well as a UI for browsing tokens.<\/p>",
             "summary": "",
             "lang": "en"
+        }
+    ],
+    "field_comment": [
+        {
+            "status": 2,
+            "cid": 0,
+            "last_comment_timestamp": 1558505801,
+            "last_comment_name": null,
+            "last_comment_uid": 1,
+            "comment_count": 0
         }
     ],
     "field_related_links": [

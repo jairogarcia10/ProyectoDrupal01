@@ -10,7 +10,7 @@ dependencies:
 id: related_posts
 label: 'Related posts'
 module: views
-description: ''
+description: 'posts relacionados (3, relación por etiquetas)'
 tag: ''
 base_table: node_field_data
 base_field: nid

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.comment.comment.default
     - core.entity_view_mode.node.teaser
     - field.field.node.post.body
     - field.field.node.post.field_category
@@ -12,6 +13,7 @@ dependencies:
     - field.field.node.post.field_related_links
     - node.type.post
   module:
+    - comment
     - text
     - user
 id: node.post.teaser
@@ -22,19 +24,27 @@ content:
   body:
     label: hidden
     type: text_summary_or_trimmed
-    weight: 101
+    weight: 1
     settings:
       trim_length: 100
     third_party_settings: {  }
     region: content
+  field_comment:
+    type: comment_default
+    weight: 2
+    region: content
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 0
     region: content
     settings: {  }
     third_party_settings: {  }
 hidden:
   field_category: true
-  field_comment: true
   field_images: true
   field_keywords: true
   field_related_links: true

@@ -1,0 +1,115 @@
+{#
+/**
+ * @file
+ * Template for the main page.
+ */
+#}
+<div class="page">
+  {% embed '@radix/navbar/navbar.twig' with {
+    placement: 'sticky-top',
+    container: 'fixed',
+    color: 'light',
+    utility_classes: ['bg-light'],
+  } %}
+
+    {% block branding %}
+      {% if page.navbar_branding %}
+        {{ page.navbar_branding }}
+      {% endif %}
+    {% endblock %}
+
+    {% block left %}
+      {% if page.navbar_left %}
+        <div class="mr-auto">
+          {{ page.navbar_left }}
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% block right %}
+      {% if page.navbar_right %}
+        {{ page.navbar_right }}
+      {% endif %}
+    {% endblock %}
+  {% endembed %}
+
+  {% if page.header %}
+      <header class="page__header mb-3">
+        <div class="container">
+          {{ page.header }}
+        </div>
+      </header>
+    {% endif %}
+   <br>
+   <br> 
+  <main class="pt-5 pb-5">
+    
+<div class="container">
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    <div class="layout-content">
+    {% block content %}
+   <div class="row">
+   
+   <div class="col-8">
+    {{ page.content }}
+  
+<article>
+    
+      <div>
+           <h3>{{ title }}</h3>
+      </div>
+    <div>
+          {{ body }}
+    </div>
+    {{ view_node }}
+
+
+   
+</article>
+
+
+
+</div>
+<div class="col-sm-4">
+  <aside class="layout-sidebar-first b" role="complementary">
+        {{ page.blog }}
+        {{ page.sidebar}}
+      </aside>
+</div>
+ 
+     </div>
+    
+
+
+
+  {% endblock %}
+
+    
+    </div>{# /.layout-content #}
+
+  
+
+  </main>
+
+</div>{# /.layout-container #}
+</div>
+
+    {% if page.footer %}
+    <footer class="page__footer bottom section-padding">
+      <div class="container">
+           <div class= "row">
+                 <div class= "col-md-12 text-center ">
+                     <div class= "copyright">
+                       {{ page.footer.projecttheme_powered }}
+                       	<p>© <span>2019</span> <span class="transition">Course TM7101</span> All rights reserved by <span class="transition"> Jairo, Karol & Lisbeth</span></p>
+                     </div>
+                 
+                 </div>
+           </div>
+        </div>
+      
+    </footer>
+  {% endif %}
+

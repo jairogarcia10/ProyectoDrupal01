@@ -17835,8 +17835,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/pelusa/project01/web/themes/custom/projecttheme/src/js/projecttheme.script.js */"./src/js/projecttheme.script.js");
-module.exports = __webpack_require__(/*! /home/pelusa/project01/web/themes/custom/projecttheme/src/sass/projecttheme.style.scss */"./src/sass/projecttheme.style.scss");
+__webpack_require__(/*! /home/pelusa/ProyectoDrupal01/web/themes/custom/projecttheme/src/js/projecttheme.script.js */"./src/js/projecttheme.script.js");
+module.exports = __webpack_require__(/*! /home/pelusa/ProyectoDrupal01/web/themes/custom/projecttheme/src/sass/projecttheme.style.scss */"./src/sass/projecttheme.style.scss");
 
 
 /***/ })

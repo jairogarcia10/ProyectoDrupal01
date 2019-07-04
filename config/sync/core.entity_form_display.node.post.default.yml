@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - entity_browser.browser.media_entity_browser
     - field.field.node.post.body
     - field.field.node.post.field_category
     - field.field.node.post.field_comment
@@ -11,6 +12,7 @@ dependencies:
     - field.field.node.post.field_related_links
     - node.type.post
   module:
+    - entity_browser
     - link
     - path
     - text
@@ -36,9 +38,18 @@ content:
     region: content
   field_images:
     weight: 4
-    settings: {  }
+    settings:
+      entity_browser: media_entity_browser
+      field_widget_display: rendered_entity
+      field_widget_edit: true
+      field_widget_remove: true
+      selection_mode: selection_append
+      field_widget_display_settings:
+        view_mode: entity_browser_render
+      field_widget_replace: false
+      open: false
     third_party_settings: {  }
-    type: options_select
+    type: entity_browser_entity_reference
     region: content
   field_keywords:
     weight: 6

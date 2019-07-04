@@ -1,0 +1,20 @@
+uuid: 8b6c2582-a031-4a93-8255-1c0e0f269b91
+langcode: en
+status: true
+dependencies:
+  module:
+    - consumer_api_test
+  theme:
+    - projecttheme
+id: consumerblock
+theme: projecttheme
+region: blog
+weight: 0
+provider: null
+plugin: consumer_api_test
+settings:
+  id: consumer_api_test
+  label: 'Consumer block'
+  provider: consumer_api_test
+  label_display: visible
+visibility: {  }

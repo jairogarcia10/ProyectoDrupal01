@@ -13,7 +13,7 @@ dependencies:
 id: blog
 label: Blog
 module: views
-description: ''
+description: 'En page muestra todos los blog y en block muestran los post mas recientes'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -487,7 +487,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<div class=\"row\">\r\n  <div class=\"col-sm-6\">\r\n    <div class=\"card\">\r\n      <div class=\"card-body\">\r\n        <h5 class=\"card-title\">{{ title }} </h5>\r\n        <p class=\"card-text\">{{ body }}</p>\r\n<div class=\"btn btn-outline-info \">{{ view_node_1 }}</div>\r\n        \r\n      </div>\r\n    </div>\r\n  </div>"
+            text: "<div class=\"row\">\r\n            <div class=\"col-sm-8\">\r\n                <div class=\"card-content\">\r\n                  \r\n                    <div class=\"card-desc\">\r\n                        <h3>{{ title }}</h3>\r\n                        <p>{{ body }}</p>\r\n                            <div class=\"btn-card\" style=\"color:#FFF\">{{ view_node_1 }}</div>   \r\n                    </div>\r\n                </div>\r\n            </div>\r\n</div>"
             make_link: false
             path: ''
             absolute: false

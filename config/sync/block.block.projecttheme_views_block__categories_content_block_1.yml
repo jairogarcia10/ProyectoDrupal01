@@ -5,14 +5,14 @@ dependencies:
   config:
     - views.view.categories_content
   module:
-    - system
+    - node
     - views
   theme:
     - projecttheme
 id: projecttheme_views_block__categories_content_block_1
 theme: projecttheme
-region: sidebar
-weight: -4
+region: sidebarR
+weight: -7
 provider: null
 plugin: 'views_block:categories_content-block_1'
 settings:
@@ -24,8 +24,10 @@ settings:
   items_per_page: none
   context_mapping: {  }
 visibility:
-  request_path:
-    id: request_path
-    pages: '/categories-content/*'
+  node_type:
+    id: node_type
+    bundles:
+      post: post
     negate: false
-    context_mapping: {  }
+    context_mapping:
+      node: '@node.node_route_context:node'
